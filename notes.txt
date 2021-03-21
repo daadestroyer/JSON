@@ -11,10 +11,32 @@
 >> JSON is a format for storing and transformig data
 >> JSON is used when data is sent from server to web page
 >> JSON is lightweight data which is used to interchage
-
+>> JSON is self-describing and easy to understand
+>> JSON act as a intermediator b/w two language like java and python so with the help of JSON we can able to send one programming 
+   language data to another(basically used to connect two programming language)
 
 
 2. JSON datatypes
-3. syntax
-4. methods
-5. How to use JSON values in our programming language
+-----------------
+>> string
+>> a number
+>> an object(JSON object)
+>> an array
+>> a boolean
+>> null
+
+things which we can't use as a JSON datatypes
+--------------------------------------------
+>> function
+>> date
+>> undefined
+
+
+3. JSON syntax rules
+--------------------
+>> data is name/values pair
+>> data is seperated by commas(,)
+>> JSON object are surrounded by curly braces
+>> curly braces hold objects
+>> square brackets holds array
+

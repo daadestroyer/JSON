@@ -1,0 +1,107 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      /* 
+    
+        var jsonObject = {
+        firstname: "shubham",
+        lastname: "nigam",
+        age: 24,
+        profession: "software developer",
+      };
+
+        console.log(jsonObject)
+        console.log(jsonObject.firstname)
+        console.log(jsonObject.lastname)
+        console.log(jsonObject.age)
+        console.log(jsonObject.profession) 
+
+        // modify value
+        jsonObject.firstname = "daadestroyer";
+        
+        // add new key value pair
+        jsonObject.middlename = "pankaj";
+
+        // delete key value pair
+        delete jsonObject.middlename
+
+       for(showalldata in jsonObject){
+           document.write(jsonObject[showalldata]+"<br>")
+       }
+        */
+
+      /*
+       var jsonObject = {
+           "friends" : ["shubham","sakshi","shubhanshu"]
+       }
+       document.write(jsonObject.friends)
+    */
+
+
+    /*
+      var jsonObject = {
+        /*here fifa is a object
+        FIFA: [
+          {
+            countryname: "Brazil",
+            bestplayer: "Neymar",
+          },
+          {
+            countryname: "Portugal",
+            bestplayer: "Ronaldo",
+          },
+          {
+            countryname: "Argentina",
+            bestplayer: "Messi",
+          },
+        ],
+      };
+
+      document.write(
+        jsonObject.FIFA[0].countryname +
+          "---" +
+          jsonObject.FIFA[0].bestplayer +
+          "<br>"
+      );
+      document.write(
+        jsonObject.FIFA[1].countryname +
+          "---" +
+          jsonObject.FIFA[1].bestplayer +
+          "<br>"
+      );
+      document.write(
+        jsonObject.FIFA[2].countryname +
+          "---" +
+          jsonObject.FIFA[2].bestplayer +
+          "<br>"
+      );
+      document.write("<br>");
+
+      for (x in jsonObject.FIFA) {
+        for (innerX in jsonObject.FIFA[x]) {
+          document.write(jsonObject.FIFA[x][innerX]);
+          document.write("<br>")
+        }
+      }*/
+
+
+      var senddata = {
+          name:"shubham nigam",
+          age:"22",
+          dob:"1998",
+          course:"mca",
+          college:"rvce"
+      }
+
+      var changedata = JSON.stringify(senddata)
+      console.log(changedata)
+      window.location="send.html?values="+changedata
+    </script>
+  </body>
+</html>

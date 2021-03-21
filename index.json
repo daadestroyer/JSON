@@ -1,0 +1,11 @@
+{
+    "employee":[
+        {
+            "firstname":"shubham",
+            "lastname":"nigam",
+            "age":24,
+            "profession":"web developer"
+
+        }
+    ]
+}
