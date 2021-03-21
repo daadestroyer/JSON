@@ -1,0 +1,20 @@
+1. What is JSON
+2. JSON datatypes
+3. syntax
+4. methods
+5. How to use JSON values in our programming language
+
+
+1. What is JSON
+---------------
+>> JSON stands for Javascript object notation
+>> JSON is a format for storing and transformig data
+>> JSON is used when data is sent from server to web page
+>> JSON is lightweight data which is used to interchage
+
+
+
+2. JSON datatypes
+3. syntax
+4. methods
+5. How to use JSON values in our programming language
